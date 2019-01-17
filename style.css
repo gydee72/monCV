@@ -8,6 +8,11 @@ font-family: 'Shadows Into Light', cursive !important;
 p {
  font-family: 'Shadows Into Light', cursive;
 }
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
 
 .container {
   background-image: url(images/image1.jpg);
