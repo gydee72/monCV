@@ -5,6 +5,9 @@ body {
   background: #c5e2d6;
   font-family: 'Lobster', cursive;
 }
+p {
+  font-family: 'Lobster', cursive;
+}
 
 .container {
   background-image: url(images/image1.jpg);
