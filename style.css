@@ -8,11 +8,7 @@ font-family: 'Shadows Into Light', cursive !important;
 p {
  font-family: 'Shadows Into Light', cursive;
 }
-footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
+
 ul {
   padding-left: 20px; }
 
@@ -122,7 +118,7 @@ ul {
 }
 .footer {
 	background: #EDEFF1;
-	height: auto;
+	height: 400px;
 	padding-bottom: 30px;
 	position: relative;
 	width: 100%;
