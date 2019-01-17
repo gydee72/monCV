@@ -13,6 +13,8 @@ footer {
       color: white;
       padding: 15px;
     }
+ul {
+  padding-left: 20px; }
 
 .container {
   background-image: url(images/image1.jpg);
