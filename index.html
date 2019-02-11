@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>cvgr</title>
+    <meta charset="utf-8">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <style type="text/css">
+        body {
+            background-image: url(images/back2.jpg);
+            repeat: no-repeat;
+
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+
+        [class*="col"] {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        a:focus {
+            outline: 0;
+
+            .carousel-inner img {
+                width: 100 %;
+                height: 100%;
+
+            }
+
+            header {
+                padding-bottom: 10px;
+            }
+
+
+            #contatti {
+                background-color: #4286f4;
+                letter-spacing: 2px;
+            }
+
+            #contatti a {
+                color: #4586e0;
+                text-decoration: none;
+            }
+
+
+            @media (max-width: 575.98px) {
+                <!--smartphone -->#contatti {
+                    padding-bottom: 800px;
+                }
+
+                #contatti .maps iframe {
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+
+
+            @media (min-width: 576px) {
+                <!--smartphone -->#contatti {
+                    padding-bottom: 800px;
+                }
+
+                #contatti .maps iframe {
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                <!--tablette -->#contatti {
+                    padding-bottom: 350px;
+                }
+
+                #contatti .maps iframe {
+                    width: 100%;
+                    height: 850px;
+                }
+            }
+
+            @media (min-width: 992px) {
+                <!--desktop -->#contatti {
+                    padding-bottom: 200px;
+                }
+
+                #contatti .maps iframe {
+                    width: 100%;
+                    height: 700px;
+                }
+            }
+
+
+            #author a {
+                color: #fff;
+                text-decoration: none;
+
+            }
+
+            h4 {
+                color: white;
+            }
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Expériences">Expériences</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+
+
+
+
+
+
+
+            <div id="element"></div>
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="office1" data-slide-to="0" class="active"></li>
+                    <li data-target="office2" data-slide-to="1"></li>
+                    <li data-target="office3" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/office15.jpg" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h2>Front-end</h2>
+                            <p>Création de site</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/office14.jpg" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h2>Intégration</h2>
+                            <p>HTML 5 / CSS 3<p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/office10.jpg" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h2>Wordpress</h2>
+                            <p>Site vitrine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+            <marquee behavior="scroll" direction="left" width="100%" bgcolor="#EEEEEE">
+                <h1>Je possède le statut d'entrepreneur-salarié (smartbe.be). Je me suis spécialisée dans les sites vitrines</h1>
+            </marquee><br>
+
+    </header>
+
+
+
+
+
+
+
+
+    <div class="container">
+        <h4>Technologies :</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline">
+                    <a href="#" class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Intégration HTML/CSS</h3>
+                            <p class="description">
+                                <strong>A partir de wireframe, découpage de maquette psd (notion de photoshop). En HTML5/CSS3/Jquery, avec ou sans Bootstrap, connaissance de Sass/Scss.</strong>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Wordpress</h3>
+                            <p class="description">
+                                <strong>Création de site vitrine, Landing page et E-commerce ( Woocommerce ) sous Wordpress. En Freelance ou contrat CDI ou CDD. Pour Indépendant, PME, Startup ou grand compte.</strong>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                        <div class="timeline-content">
+                            <h3 class="title">E-mailing</h3>
+                            <p class="description">
+                                <strong>Création d'email en (X)HTML. Connaissance de base en mailchimp et Sarbacane.</strong> Connaissance des contraintes du développement d'e-mails.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="timeline">
+                        <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Front-End</h3>
+                            <p class="description">
+                                <strong>Création de A à Z de site vitrine. En HTML5, CSS3, Bootstrap, Jquery. Base en Javascript </strong>(Variables, conditions, fonctions, objets, tableaux, les chaînes).
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="container">
+        <div id="content" class="row">
+            <div class="col-md-12">
+                <div class="zoom colonne">
+                    <div class="col-lg-2"><img src="images/html.png" alt="Cinque Terre" class="rounded" width="100" height="180"></div>
+                    <div class="col-lg-2"><img src="images/jquery1.png" alt="developpeur" class="rounded" width="100" height="180"></div>
+                    <div class="col-lg-2"><img src="images/bootstrap.png" alt="developpeur" class="rounded" width="100" height="180"></div>
+                    <div class="col-lg-2"><img src="images/wordpress2.png" alt="developpeur" class="rounded" width="100" height="180"></div>
+                    <div class="col-lg-2"><img src="images/la/javas1.png" alt="developpeur" class="rounded" width="100" height="180"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <section class="col-sm-12">
+                <table class="table table-bordered table-striped table-condensed">
+
+                    <strong>
+                        <h4 class="bg-success text-white">
+                            <div id="Certifications" </div>Certifications </h4> </strong> <thead>
+                                <tr>
+                                    <th>Mois</th>
+                                    <th>Technologies</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="success">
+                                        <td>Janvier 2017</td>
+                                        <td><strong>HTML5 et CSS3</strong>, délivré le 27 mars 2017 par Openclassrooms.com</td>
+                                    </tr>
+                                    <tr class="danger">
+                                        <td>Octobre 2017 </td>
+                                        <td><strong>Apprenez à coder avec Javasript</strong>(les bases), délivré le 5 janvier 2018 par Openclassrooms.com</td>
+                                    </tr>
+                                    <tr class="success">
+                                        <td>Janvier 2018</td>
+                                        <td><strong>Wordpress</strong>, délivré le 22 janvier 2018 par Openclassrooms.com</td>
+                                    </tr>
+                                    <tr class="warning">
+                                        <td>Février 2018</td>
+                                        <td><strong>Site professionnel avec Wordpress</strong>, délivré le 11 Février 2018 par Openclassrooms.com</td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>Juillet 2018</td>
+                                        <td><strong>PHP/ MySQL</strong>, délivré en septembre 2018</td>
+                                    </tr>
+                                    <tr class="success">
+                                        <td>Janvier 2019</td>
+                                        <td><strong>Suis le Cursus Développeur Front-End</strong>, Formation en cours avec le learning de LinkedIn - Terminé début mars 2019 </td>
+                                    </tr>
+                                 
+
+                                </tbody>
+                </table>
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row">
+            <section class="col-sm-12">
+                <table class="table table-bordered table-striped table-condensed">
+
+                    <strong>
+                        <h4 class="bg-danger text-white">
+                            <div id="Expériences"></div>Expériences
+                        </h4>
+                    </strong>
+
+                    <thead>
+                        <tr>
+                            <th>Dates</th>
+                            <th>Expériences professionnelles</th>
+                            <th>Lieu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="success">
+                            <td>01-2006 à 6-2006</td>
+                            <td>Gérante indépendante de 2 agences de paris hippique et sportif</td>
+                            <td>Ladbroke à Dour et Erquennes</td>
+                        </tr>
+                        <tr class="danger">
+                            <td>10-2001 à 12-2001</td>
+                            <td>Employée comptabilité fournisseur ( stage + interim )</td>
+                            <td>Caterpillar à Gosselies </td>
+                        </tr>
+                        <tr class="success">
+                            <td>06-1996 à 08-1996</td>
+                            <td>ouvrière société de nettoyage</td>
+                            <td>Laurenty - Société de nettoyage à Charleroi</td>
+                        </tr>
+                        <tr class="warning">
+                            <td>06-1991 à 12-1994</td>
+                            <td>Aide-soignante</td>
+                            <td>Maison de repos Corbisier à Les bons Villers</td>
+                        </tr>
+
+
+                    <tbody>
+
+
+                        <tr class="danger">
+                            <td>du 22 au 26-10-2018 </td>
+                            <td>Création de site vitrine sous wordpress</td>
+                            <td>Productions Associées - Smartbe.be </td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </section>
+
+
+
+
+
+            <div class="container">
+                <div id="portfolio"></div>
+                <h2>Portfolio</h2>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+						<a href="https://gydee72.github.io/montain"> <img src="images/sitehtml.png" alt="Lights" style="width:100%"></a>
+                              
+                                <div class="caption">
+                                    <p>cliquez sur l'aperçu en HTML5/CSS3/JS.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/site2.png"></a>
+                                <img src=""  style="width:100%">
+                                <div class="caption">
+								<h1>D'autres sites en constructions</h1>
+                                   
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/.png" target="_blank">
+                                <img src="" style="width:100%">
+                                <div class="caption">
+                                    <p>.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container mt-3">
+
+                <div class="media border p-3">
+                    <img src="images/myAvatar.png" alt="Géraldine Ragon" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                    <div class="media-body">
+                        <h4>Géraldine Ragon </br>
+                        <small><i>Autodidacte, passinnée par le code et le design. Je suis en formation continue. Curieuse insatiable d'informatique et de programmation web.</i></small></h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div id="Contact"></div>
+            <div class="text-black">
+                <h2 class="text-uppercase mt-4 font-weight-bold">Géraldine Ragon</h2>
+                <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+32) 492.765.992</a><br>
+                <i class="fa fa-envelope mt-3"></i> <a href="">gydee72@gmail.com</a><br>
+                <i class="fas fa-globe mt-3"></i> 23 rue de la fraternité, 7130 Binche (Belgique)<br>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+    </footer>
+    </div>
+
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+
+    <script>
+        $('.view-gallery button').on('click', function() {
+            $('.box').toggleClass('animated');
+            // $('ul').css({
+            //   'max-width' : '100%'
+            // });
+        });
+
+    </script>
+
+</body>
+
+</html>
