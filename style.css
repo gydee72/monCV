@@ -73,6 +73,7 @@ h4{text-align:center;
 	width: 60px;
 	top: 200%;
 	left: 90%;
+	z-index:4;
 	background-color: transparent;
 	border-radius: 50%;
 	border:5px solid #blue;
