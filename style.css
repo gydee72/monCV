@@ -69,6 +69,16 @@ h4{text-align:center;
  
 }
 .home-section .bg-shapes div:nth-child(3){
+	height: 60px;
+	width: 60px;
+	top: 200%;
+	left: 90%;
+	background-color: transparent;
+	border-radius: 50%;
+	border:5px solid #blue;
+	border-left: : 5px solid green;
+	border-bottom: 5px solid transparent;
+	animation: shapeani02 7s linear infinite;
  
 }
 .home-section .bg-shapes div:nth-child(4){
