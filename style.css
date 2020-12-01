@@ -49,6 +49,82 @@ h4{text-align:center;
 .voir {
 	color: green;
 }
+/*animation*/
+.home-section .bg-shapes div {
+  position: absolute;
+  opacity: 0.12;
+  }
+
+.home-section .bg-shapes div:nth-child(1) {
+    height: 130px;
+    width: 130px;
+    top: 200%;
+    left: 70%;
+    z-index:4;
+    background-color: #f051ea;
+    border-radius: 50%;
+    animation: shapeani01 5s linear infinite;
+}
+.home-section .bg-shapes div:nth-child(2){
+ 
+}
+.home-section .bg-shapes div:nth-child(3){
+ 
+}
+.home-section .bg-shapes div:nth-child(4){
+  height: 100px;
+  width: 100px;
+  top: 308%;
+  left: 60%;
+  z-index:4;
+  background-color: transparent;
+  border:5px solid #eca1f0;
+  animation: shapeani02 10s linear infinite;
+}
+.home-section .bg-shapes div:nth-child(5){
+  height: 130px;
+  width: 130px;
+  top: 120%;
+  left: 30%;
+  z-index:4;
+  background-color: transparent;
+  border:5px solid #62e3d0;
+  animation: shapeani02 10s linear infinite;
+}
+
+
+
+@keyframes shapeani01{
+  0%,100%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(50px);
+  }
+}
+
+@keyframes shapeani02{
+  0%,{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shapeani03{
+  0%,100%{
+    transform: scale(0.5);
+  }
+  50%{
+    transform: scale(1);
+  }
+}
+
+
+
+
+
 
 
 
