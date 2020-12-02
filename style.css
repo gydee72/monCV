@@ -58,7 +58,7 @@ h4{text-align:center;
 .home-section .bg-shapes div:nth-child(1) {
     height: 130px;
     width: 130px;
-    top: 190%;
+    top: 290%;
     left: 70%;
     z-index:4;
     background-color: #f051ea;
@@ -71,7 +71,7 @@ h4{text-align:center;
 .home-section .bg-shapes div:nth-child(3){
 	height: 100px;
 	width: 100px;
-	top: 260%;
+	top: 360%;
 	left: 20%;
 	z-index:2;
 	background-color: transparent;
@@ -85,7 +85,7 @@ h4{text-align:center;
 .home-section .bg-shapes div:nth-child(4){
   height: 100px;
   width: 100px;
-  top: 308%;
+  top: 408%;
   left: 60%;
   z-index:4;
   background-color: transparent;
@@ -95,7 +95,7 @@ h4{text-align:center;
 .home-section .bg-shapes div:nth-child(5){
   height: 130px;
   width: 130px;
-  top: 120%;
+  top: 220%;
   left: 30%;
   z-index:4;
   background-color: transparent;
