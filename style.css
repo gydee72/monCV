@@ -267,7 +267,7 @@ h4{text-align:center;
   line-height: 26px;
   font-weight: 400;
 }
-.contact-form .input-text:focus {
+.contact-form .input-text:focus { 
   outline: none;
 }
 .contact-form .input-text:focus + .label,
