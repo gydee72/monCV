@@ -30,7 +30,7 @@ p {
     height: 100%;
     position: absolute;
     top: 0; left: 0;
-    background: url(./images/bgweb.jpg) center no-repeat;
+    background: url(./images/bk.jpg) center no-repeat;
     background-size: cover;
     z-index: 9;
     opacity: 0.6;
