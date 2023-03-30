@@ -23,6 +23,9 @@ h2 {
 p {
 	font-size: 30px;
 }
+.card {
+	border-radius:8rem !important;
+}
 
 
 
