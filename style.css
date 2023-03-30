@@ -37,7 +37,7 @@ p {
 .header {
     height: 450px;
     width: 100%;
-    background: rgb(62,57,107);
+    /*background: rgb(62,57,107);*/
     position: relative;
 }
 .header__texture {
