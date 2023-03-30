@@ -321,6 +321,7 @@ h4{text-align:center;
 }
 .how-img img{
     width: 60%;
+	border-radius: 20%;
 }
 .bg-dark {
 	background-color: black!important;
