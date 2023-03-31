@@ -1,4 +1,4 @@
-const txtAnim = document.querySelector('.portfolio h4');
+const txtAnim = document.querySelector('h4');
 new Typewriter(txtAnim, {
   loop: true,
   deleteSpeed: 20
