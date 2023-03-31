@@ -1,24 +1,17 @@
-const txtAnim = document.querySelector('h4');
-new Typewriter(txtAnim, {
+var app = document.querySelector('h4');
+
+var typewriter = new Typewriter(app, {
   loop: true,
-  deleteSpeed: 20
-})
-.changedelay(20)
+  delay: 75,
+});
 
-.typeString('Voici un aperçu')
-.pauseFor(300)
-.typeString('<strong>, de mes créations.</strong> ! ')
-.pause(1000)
-.deleteChars(10)
-.typeString('<span style="color: #27ae60">sites</span> ! ')
-.pauseFor(1000)
-.deleteChars(7)
-.typeString('<span style="color: midnightblue">sites React</span> ! ')
-.pauseFor(1000)
-.deleteChars(7)
-.typeString('<span style="color:#ea39ff">sites Wordpress</span> ! ')
-.pauseFor(1000)
-.deleteChars(9)
-
-.start()
+typewriter
+  .pauseFor(2500)
+  .typeString('A simple yet powerful native javascript')
+  .pauseFor(300)
+  .deleteChars(10)
+  .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
+  .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
+  .pauseFor(1000)
+  .start();
             
