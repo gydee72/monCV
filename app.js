@@ -7,10 +7,10 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(2500)
-  .typeString('Voici un aperçu de mes création developpement et webdesign')
+  .typeString('Voici un aperçu de mes créations developpement et webdesign')
   .pauseFor(300)
   .deleteChars(12)
-  .typeString('<strong>Front-end</strong> avec projet en React, Webflow ')
+  .typeString('<strong>Front-end</strong> avec projets en React, Webflow ')
   .typeString('<strong>Back-end avec <span style="color: #27ae60;">PHP</span> et Python</strong>')
   .pauseFor(1000)
   .start();
